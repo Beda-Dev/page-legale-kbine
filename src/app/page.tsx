@@ -93,7 +93,7 @@ export default function LegalPage() {
 
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-foreground">Directeur de la publication</h3>
-                  <p className="text-muted-foreground leading-relaxed">Kla Alexandre</p>
+                  <p className="text-muted-foreground leading-relaxed ">ALEXANDRE KLA</p>
                 </div>
 
                 <Separator className="bg-[#FF6B35]/20" />
