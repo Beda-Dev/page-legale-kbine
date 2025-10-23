@@ -81,16 +81,10 @@ export default function LegalPage() {
                   <h3 className="font-semibold text-lg mb-3 text-foreground">Éditeur de l'application</h3>
                   <div className="space-y-2 text-muted-foreground leading-relaxed">
                     <p>
-                      <strong className="text-foreground">Nom :</strong> Kbine
+                      <strong className="text-foreground">Nom :</strong> DIGIFAZ
                     </p>
                     <p>
-                      <strong className="text-foreground">Forme juridique :</strong> [À compléter]
-                    </p>
-                    <p>
-                      <strong className="text-foreground">Capital social :</strong> [À compléter]
-                    </p>
-                    <p>
-                      <strong className="text-foreground">Siège social :</strong>  Abidjan
+                      <strong className="text-foreground">Siège social :</strong>  Abidjan , Cocody quartier Akouédo Attié
                     </p>
                   </div>
                 </div>
@@ -99,21 +93,11 @@ export default function LegalPage() {
 
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-foreground">Directeur de la publication</h3>
-                  <p className="text-muted-foreground leading-relaxed">[Nom du directeur de publication]</p>
+                  <p className="text-muted-foreground leading-relaxed">Kla Alexandre</p>
                 </div>
 
                 <Separator className="bg-[#FF6B35]/20" />
 
-                <div>
-                  <h3 className="font-semibold text-lg mb-3 text-foreground">Hébergement</h3>
-                  <div className="space-y-2 text-muted-foreground leading-relaxed">
-                    <p>
-                      <strong className="text-foreground">Adresse :</strong> [Adresse de l'hébergeur]
-                    </p>
-                  </div>
-                </div>
-
-                <Separator className="bg-[#FF6B35]/20" />
 
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-foreground">Contact</h3>
@@ -124,12 +108,12 @@ export default function LegalPage() {
                     </div>
                     <div className="flex items-center gap-3 text-muted-foreground">
                       <Phone className="w-5 h-5 text-[#FF6B35]" />
-                      <span>[Numéro de téléphone]</span>
+                      <span>+225 07 89 06 20 79</span>
                     </div>
-                    <div className="flex items-start gap-3 text-muted-foreground">
+                    {/* <div className="flex items-start gap-3 text-muted-foreground">
                       <MapPin className="w-5 h-5 text-[#FF6B35] mt-0.5" />
                       <span>[Adresse complète]</span>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </CardContent>
@@ -440,8 +424,8 @@ export default function LegalPage() {
                 <div>
                   <h3 className="font-semibold text-lg mb-3 text-foreground">10. Droit applicable et juridiction</h3>
                   <p className="text-muted-foreground leading-relaxed">
-                    Les présentes CGU sont régies par le droit [pays/région]. Tout litige relatif à l'utilisation de
-                    l'application sera soumis à la compétence exclusive des tribunaux de [ville].
+                    Les présentes CGU sont régies par le droit Côte d'Ivoire/Abidjan. Tout litige relatif à l'utilisation de
+                    l'application sera soumis à la compétence exclusive des tribunaux d'Abidjan.
                   </p>
                 </div>
               </CardContent>
@@ -466,7 +450,7 @@ export default function LegalPage() {
                     Nous contacter
                   </a>
                   <a
-                    href="tel:+[phone]"
+                    href="tel:+2250789062079"
                     className="inline-flex items-center gap-2 px-6 py-3 bg-gradient-to-r from-[#2E86AB] to-[#4AA5C9] text-white rounded-lg hover:shadow-lg transition-all font-medium"
                   >
                     <Phone className="w-5 h-5" />
